@@ -263,6 +263,10 @@ header {
   text-wrap: nowrap;
   cursor: pointer;
 }
+.statistics-toggler:hover {
+  background-color: #4d92c8;
+  color: #fff;
+}
 
 .statistics-toggler.selected {
   background-color: #4d92c8;
@@ -416,4 +420,10 @@ header {
 .repeated-tg-header,
 .repeated-tg-row:not(:last-child) {
   border-right: none;
+}
+.vertical {
+  border-left: 1px solid #6f7072;
+  height: 300px;
+  position: absolute;
+  left: 52%;
 }
